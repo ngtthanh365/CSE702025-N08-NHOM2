@@ -4,17 +4,14 @@
 - Ứng dụng Đặt Vé Xem Phim là một giao diện người dùng thân thiện, hiện đại giúp người dùng dễ dàng tìm kiếm rạp chiếu phim, chọn suất chiếu, đặt vé và thanh toán nhanh chóng.
 - Dự án này tập trung vào thiết kế giao diện người dùng (UI/UX) trên Figma nhằm mô phỏng trải nghiệm đặt vé trực tuyến như các ứng dụng phổ biến hiện nay.
 ## Giới thiệu thành viên:
-1. **Nguyễn Tuấn Thành**: Phát triển giao diện phần mềm toàn diện.
-- MSSV: 23010626
-- Email: tuanthanh365bt@gmail.com
 
-2. **Nguyễn Huy Hoàng**: Phát triển giao diện phần mềm toàn diện.
-- MSSV: 23010143
-- Email: hoang20052810@gmail.com
 
-3. **Nguyễn Đăng Nhật**: Phát triển giao diện phần mềm toàn diện.
-- MSSV: 23010629
-- Email: nhattnguyenn2005@gmail.com
+| Thành viên nhóm       | Mã sinh viên | Email                         | Đóng góp |
+|-----------------------|--------------|-------------------------------|----------|
+| Nguyễn Tuấn Thành     | 23010626     | tuanthanh365bt@gmail.com | 110%     |
+| Nguyễn Đăng Nhật      | 23010629     | nhattnguyenn2005@gmail.com  | 90%      |
+| Nguyễn Huy Hoàng      | 23010143     | hoang20052810@gmail.com | 100%     |
+
 ## 1. Bảng phân chia công việc chi tiết theo tuần:
 | Thành viên            | Tuần 1 (Phân tích yêu cầu)                                              | Tuần 2 (Thiết kế Use‑case & Flow)                                           | Tuần 3 (Thiết kế hướng đối tượng)                                                  | Tuần 4 (UI Flow & Prototype)                                   | Tuần 5 (Hoàn thiện & Đánh giá)                                                   |
 |-----------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -24,10 +21,11 @@
 ## 2. Phân tích yêu cầu:
 ### 2.1. Đặt vấn đề bài toán
 Trong bối cảnh nhu cầu giải trí trực tuyến ngày càng cao, việc phát triển một ứng dụng đặt vé xem phim tiện lợi, trực quan và nhanh chóng là thiết yếu. Hệ thống của nhóm chúng tôi cho phép người dùng:
-•	Đăng ký / Đăng nhập,
-•	Xem danh sách phim, vị trí rạp phim, lịch chiếu, các ưu đãi, 
-•	Chọn rạp phim, chỗ ngồi, mua bỏng-nước, 
-•	Thanh toán và nhận vé điện tử.
+-	Đăng ký / Đăng nhập,
+-	Xem danh sách phim, vị trí rạp phim, lịch chiếu, các ưu đãi, 
+-	Chọn rạp phim, chỗ ngồi, mua bỏng-nước, 
+-	Thanh toán và nhận vé điện tử.
+  
 Mục tiêu là tối ưu trải nghiệm người dùng, giảm thiểu thao tác thừa và đảm bảo tính ổn định, bảo mật.
 ### 2.2. Tác nhân, người dùng
 | Tác nhân                    | Mô tả                                                    |
@@ -35,7 +33,7 @@ Mục tiêu là tối ưu trải nghiệm người dùng, giảm thiểu thao t�
 | **Khách hàng (User)**       | Đăng ký/Đăng nhập, duyệt phim, đặt vé                     |
 | **Quản trị viên (Admin)**   | Quản lý danh sách phim, rạp phim, lịch chiếu, doanh thu   |
 ### 2.3. Chức năng & Phân tích chức năng (theo tác nhân)
-•	Khách hàng (User)
+-	Khách hàng (User)
 1.	Đăng ký / Đăng nhập
 2.	Xem danh sách phim: Theo thể loại, ngày chiếu,…
 3.	Xem chi tiết phim: Mô tả, trailer, đánh giá
@@ -44,7 +42,7 @@ Mục tiêu là tối ưu trải nghiệm người dùng, giảm thiểu thao t�
 6.	Chọn chỗ ngồi
 7.	Thanh toán
 8.	Nhận vé điện tử: qua app
-•	Quản trị viên (Admin)
+-	Quản trị viên (Admin)
 1.	Quản lý phim: Thêm/sửa/xóa phim
 2.	Thiết lập rạp phim
 3.	Thiết lập lịch chiếu
@@ -166,9 +164,11 @@ classDiagram
 - Giao diện trực quan, nhất quán với brand màu tím–xanh.
 -	Toàn bộ luồng từ đăng nhập đến nhận vé được prototype hoá trên Figma.
 -	Use case và sequence diagram đã mô tả đầy đủ luồng nghiệp vụ.
+  
 •	Ưu điểm
 -	Trải nghiệm người dùng mượt mà, ít bước thừa.
 -	Thiết kế responsive, dễ mở rộng.
+  
 •	Nhược điểm & Đề xuất cải tiến
 -	Cần bổ sung flow xử lý sự cố thanh toán thất bại.
 -	Tiếp theo: tích hợp API thực, kiểm thử chức năng đặt vé và thanh toán.
